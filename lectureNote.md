@@ -42,5 +42,25 @@
 
 ---
 # 03. GitHub 실습 II - Pull, Fetch, Reset, Revert, Stash, Fork, Push
+## Remote
+* ```git remote add origin "url"``` : 원격 저장소에 연결 이름을 'origin'으로
+* ```git remote -v``` : 연결된 것을 확인할 수 있다.
+
+## Push
+* ```git push -u origin master```
+
+## Clone
+* ```git clone [url]``` : 원격 저장소에서 저장
+
+## Branch
+* master의 경우 배포 버전이다.
+* ```git branch [name]``` : 길을 만들어 따로 작업을 진행하겠다.
+* ```git checkout [name]``` : 브랜치간 이동...name으로 이동
+* ```git merge [name] ``` : name branch를 현재 branch로 합침
+* 이 후에 합침
+* ```git rebase master``` : base를 master로 re-base 한다 (기준점을 바꾼다)
+* ```git branch -d [name]``` : 완료된 branch 삭제
+
+
 ---
 # 04. Github Page 활용하기
