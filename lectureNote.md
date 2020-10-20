@@ -77,15 +77,18 @@
 * ```gut reset [option] [branch]``` : Branch 이후 내용 지우자
 * ```gut reset --hard [해시번호]``` : 저 상태로 돌아감
 ### Revert
-* ```gut revert [branch]``` : 수정한 기록도 남기자
+* ```git revert [branch]``` : 수정한 기록도 남기자
 ### Stash
+* ```git stash``` : 현재 작업하고 있는 작업물을 따로 저장하기
 
 ## Fork
 * 내 로컬에 떠오기
 * 명령어 없이, 사이트에서 가능
 
 # Pull Request 하는 법
-
+```Fork``` - ```Clone + Remote 설정``` - ```Branch 생성``` - ```add, commit, push``` - 
+```Pull Request (PR) 생성 ``` - *Code Review* - *Merge PR* - ```Merge 이후 Branch 삭제 및 동기화```
 
 ---
 # 04. Github Page 활용하기
+## Markdown
