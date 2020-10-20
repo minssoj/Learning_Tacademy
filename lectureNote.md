@@ -39,6 +39,7 @@
 * 현재 브랜치
 * commit 목록
 * commit할 변경 사항
+* ```git log --all --decorate --graph --oneline``` : CLI창에서 그래프로 보고 싶을 때
 
 ---
 # 03. GitHub 실습 II - Pull, Fetch, Reset, Revert, Stash, Fork, Push
@@ -59,7 +60,31 @@
 * ```git merge [name] ``` : name branch를 현재 branch로 합침
 * 이 후에 합침
 * ```git rebase master``` : base를 master로 re-base 한다 (기준점을 바꾼다)
-* ```git branch -d [name]``` : 완료된 branch 삭제
+* ```git branch -d [name]``` : 완료된 branch 삭제...version 관리가 힘들 수 있기에
+
+## Config
+* ```git config --global alias.adog "--all --decorate --graph --oneline"``` : 자주 사용하는 것 축약어로...
+
+## Fetch
+* ```git fetch``` : 원격 저장소 가져오기
+* 협업할 때는, Pull보다는 Fetch를 (충돌 방지)
+
+## Pull
+* ```git pull``` : Fetch에 Merge까지
+
+## 실수하는 경우
+### reset
+* ```gut reset [option] [branch]``` : Branch 이후 내용 지우자
+* ```gut reset --hard [해시번호]``` : 저 상태로 돌아감
+### Revert
+* ```gut revert [branch]``` : 수정한 기록도 남기자
+### Stash
+
+## Fork
+* 내 로컬에 떠오기
+* 명령어 없이, 사이트에서 가능
+
+# Pull Request 하는 법
 
 
 ---
