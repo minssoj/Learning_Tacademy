@@ -92,3 +92,80 @@
 ---
 # 04. Github Page 활용하기
 ## Markdown
+* 연동 문제 때문에 블로그보다는 많이 사용
+* ```vscode```에서 사용하려면 ```extend```tab에서 ```markdown preview enhanced```다운
+
+### H태그 
+* Header를 의미
+* H5 (#5개)부터는 잘못된 사용
+
+### 글씨체
+* ```_``` : _Italic_
+* ```**``` : **BOLD**
+* ```**_``` : **_Italic+BOLD_**
+* ```>``` 
+    > 인용문
+
+### list & table
+* list 순서가 없는 경우 : ```-``` or ```*```
+* list 순서가 있는 경우 : ```숫자.```
+
+* 표의 경우 ```||||```으로 column 정하고 ```|---|----|-----|``` 후에 항목 채우기
+* ```---``` : 경계선
+
+### link & image
+* link : ```[name](주소)```
+* image : ```![name](이미지주소)```
+
+### 코드 & 수식
+* ` ` : 코드 한줄 (하이라이트)
+* ``` 개발도구 이름 + code``` : 해당언어 문법에 맞게 해준다.
+    * 코드 공유시 `carbon`사용
+* `$`: 사이에 쓰면 수식, $를 두개를 쓰면 수식을 중앙에
+    * `^` : 제곱, `_`
+    * `tex` 에 검색하여 사용
+
+### 다이어그램
+* mermaid
+
+## Blog
+* ```TIL``` : Today I Learned, 오늘 배운것
+* ```Jekyll Blog```
+    * 블로그 관리는 CLI 추천 -  windows에서는 Ruby 필요 [다운로드링크](https://jekyllrb.com/docs/installation/windows/)
+
+### 오늘의 블로깅
+1. Thema Repo Clone & Fork
+    * 인기 테마 : `Minimal mistake` git clone 하기
+    * `.git`폴더 삭제하기
+    * `git remote add origin 블로그 레포지토리 주소` 그 후에 push
+    * 블로그 확인 : 계정이름.github.io
+    
+2. Jekyll 구조 살펴보기
+    * `_config.yml` : 설정파일
+    * `_posts` : 블로그 포스팅
+    * `_pages` : 개별 페이지
+    * `_includes` : 글에 포함되는 개별 요소
+    * `_layouts` : 글의 양식
+    * `assets` : image, css 등
+    * `index.html` : 표지
+    * `Liquid Tag`를 공부해야 블로그 활용할 수 있다. 
+
+3. 기본 setting : ```_config.yml```
+4. 첫 포스팅 연습
+    * `_posts`에 `연도-월-일-아룸.md`파일 생성
+5. About 페이지 작성
+
+---
+# 참고
+* About Page (CV) = Portfolio Resume
+    * https://sujinlee.me/professional-github/
+    * https://woowabros.github.io/experience/2017/07/17/resume.html
+    
+* 강사님 페이지
+    * https://youtube.com/c/수비니움의코딩일지
+    * https://subinium.github.io
+    * https://www.facebook.com/AI.Lookbook
+    * https://www.facebook.com/algoguide/
+    * https://www.facebook.com/shovelingdesignoper/
+
+
