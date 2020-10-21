@@ -12,7 +12,7 @@ Minso Jeong, Tacademy
 |          내용         |   날짜     | 비고 |
 | -------------------------------- |:---------------:|--------------------------|
 |01. Git 기초 |2020.10.03||
-|02. GitHub 실습 I - Init, Add, Commit, Push, Diff, Status, Log |||
-|03. GitHub 실습 II - Pull, Fetch, Reset, Revert, Stash, Fork, Push |||
-|04. Github Page 활용하기 |||
+|02. GitHub 실습 I - Init, Add, Commit, Push, Diff, Status, Log |2020.10.04||
+|03. GitHub 실습 II - Pull, Fetch, Reset, Revert, Stash, Fork, Push |2020.10.20||
+|04. Github Page 활용하기 |2020.10.21 ||
 ---
